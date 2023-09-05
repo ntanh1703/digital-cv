@@ -1,0 +1,56 @@
+@media (max-width: 991.98px) {
+  #nav-bar .avatar {
+    display: none;
+  }
+
+  #personal-info,
+  #target {
+    padding: 32px 24px 16px 0;
+  }
+
+  .cert-item {
+    display: block;
+  }
+
+  .img-responsive-wrap {
+    position: relative;
+    height: 0;
+    padding-bottom: 60%;
+  }
+
+  .img-responsive-wrap .img-inner {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    /* transform: translate(-50%, -50%); */
+    width: 70%;
+    height: 70%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .img-responsive-wrap .img-inner img {
+    display: none;
+  }
+
+  #project .container {
+    max-width: 100%;
+  }
+
+  .project-list {
+    gap: 18px;
+  }
+
+  #project td {
+    padding: 6px;
+  }
+
+  /* #footer i {
+    font-size: 1.5vw;
+  }
+
+  #footer a {
+    font-size: 1.5vw;
+  } */
+}
